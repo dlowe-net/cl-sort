@@ -10,10 +10,10 @@ included are:
 * shell-sort
 * merge-sort
 * quicksort
-* double-pivot quicksort
+* dual-pivot-quicksort
 
 Each sorting routine is intended to be a drop-in replacement for the
 CL:SORT routine, though obviously the performance characteristics will
 vary greatly for each.
 
-* bubble-sort seq predicate &key key
+All these sort implementations are currently destructive and in-place.
